@@ -74,16 +74,16 @@
 	double height = model.height.doubleValue;
 	return CGSizeMake(width/2.0,height/2.0);
 }
--(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
-	return UIEdgeInsetsMake(1, 1, 1, 1);
-}
+//-(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
+//	return UIEdgeInsetsMake(1, 1, 1, 1);
+//}
 
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
-	return 5;
-}
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
-	return 5;
-}
+//- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
+//	return 5;
+//}
+//- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
+//	return 5;
+//}
 
 /**
  *  cell的实现
@@ -93,9 +93,10 @@
  *
  *  @return return cell
  */
--(MyCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
 	MyCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MyCell" forIndexPath:indexPath];
 	BaseModel *model = (BaseModel *)self.dataArr[indexPath.row];
+	cell.backImageView.clipsToBounds = YES;
 	[cell.backImageView setImageWithURL:[NSURL URLWithString:model.pic_url_d]];
 	return cell;
 }
@@ -115,6 +116,7 @@
 - (void)getDownloadData:(NSData *)revData{
 	//JSON数据的解析
 	NSDictionary *dice = [NSJSONSerialization JSONObjectWithData:revData options:NSJSONReadingMutableContainers error:nil];
+	NSLog(@"dice = %@",dice);
 	//数据存入模型
 	BaseModel *Bmodel = [[BaseModel alloc] init];
 	self.dataArr = [Bmodel setBaseModelWithDictionary:dice];

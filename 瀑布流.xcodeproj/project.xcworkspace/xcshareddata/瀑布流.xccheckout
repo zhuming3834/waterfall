@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2C7C20C-3869-4F12-A299-8EA8741920B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>瀑布流</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B6167A0BAC267775759E359085A58233ABB710F</key>
+		<string>https://github.com/zhuming3834/waterfall.git</string>
+		<key>b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760</key>
+		<string>http://yangj.5166.info/1000phone/iOS/trunk/iOS/Network/douban/codes/00-%252525252525E7%252525252525BD%25252525252591%252525252525E7%252525252525BB%2525252525259C0-JSON%252525252525E8%252525252525A7%252525252525A3%252525252525E6%2525252525259E%25252525252590/0-DoubanBoo/SDWebImage</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>瀑布流.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B6167A0BAC267775759E359085A58233ABB710F</key>
+		<string>../..</string>
+		<key>b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760</key>
+		<string>../..%E7%80%91%E5%B8%83%E6%B5%81/SDWebImage</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760</key>
+		<string>http://yangj.5166.info/1000phone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhuming3834/waterfall.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B6167A0BAC267775759E359085A58233ABB710F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SDWebImage</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B6167A0BAC267775759E359085A58233ABB710F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>waterfall</string>
+		</dict>
+	</array>
+</dict>
+</plist>

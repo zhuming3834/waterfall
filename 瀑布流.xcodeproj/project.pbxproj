@@ -756,6 +756,7 @@
 				C356BCA71BC3C3AB006C19B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C356BCA81BC3C3AB006C19B9 /* Build configuration list for PBXNativeTarget "瀑布流Tests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +765,7 @@
 				C356BCAA1BC3C3AB006C19B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
